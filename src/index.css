@@ -14,9 +14,12 @@
   src: url('./assets/Geist-Regular.ttf') format('truetype');
 }
 
+body {
+  cursor: url('./assets/Cursor.svg'), auto !important;
+}
+
 * {
   box-sizing: border-box;
-  cursor: url('./assets/Cursor.svg'), auto !important;
   margin: 0;
   padding: 0;
   scrollbar-color: #EFEFF0 transparent;
